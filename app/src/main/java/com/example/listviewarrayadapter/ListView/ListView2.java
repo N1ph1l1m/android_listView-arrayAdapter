@@ -2,8 +2,10 @@ package com.example.listviewarrayadapter.ListView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 
+import com.example.listviewarrayadapter.MainActivity;
 import com.example.listviewarrayadapter.R;
 
 public class ListView2 extends AppCompatActivity {
@@ -12,5 +14,14 @@ public class ListView2 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_list_view2);
+    }
+
+
+    @Override
+    public void onBackPressed() {
+
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
+        finish();
     }
 }
