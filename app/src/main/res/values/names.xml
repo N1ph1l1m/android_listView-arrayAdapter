@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Names">
+        <item>Joe Clayton</item>
+        <item>Mike Roberts</item>
+        <item>Willie Daniels</item>
+        <item>Jason Taylor</item>
+        <item>Robert Bradley</item>
+        <item>John Snyder</item>
+        <item>Carmen Jones</item>
+        <item>Linda Thompson</item>
+        <item>Frances Leonard</item>
+        <item>Debbie Austin</item>
+        <item>Georgia Myers</item>
+        <item>Helen King</item>
+        <item>Sharon Anderson</item>
+        <item>Nathan Phillips</item>
+        <item>Anne Love</item>
+        <item>Thomas Morales</item>
+        <item>Catherine Craig</item>
+        <item>June Murray</item>
+        <item>Erin Wilson</item>
+        <item>Marian Green</item>
+
+    </string-array>
+
+
+
+
+
+
+
+
+
+</resources>
