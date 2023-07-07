@@ -14,4 +14,7 @@
     <item
         android:id="@+id/MyListView"
         android:title="My_ListView" />
+    <item
+        android:id="@+id/HardList"
+        android:title="HardList" />
 </menu>

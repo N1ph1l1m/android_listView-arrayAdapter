@@ -9,6 +9,7 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 
+import com.example.listviewarrayadapter.ListView.HardList.HardList;
 import com.example.listviewarrayadapter.ListView.ListView1;
 import com.example.listviewarrayadapter.ListView.ListView2;
 import com.example.listviewarrayadapter.ListView.ListView3;
@@ -44,6 +45,10 @@ public class MainActivity extends AppCompatActivity {
             return true;
         }else if(id == R.id.MyListView) {
             startActivity(new Intent(this, MyListView.class));
+            return true;
+        }
+        else if(id == R.id.HardList) {
+            startActivity(new Intent(this, HardList.class));
             return true;
         }
         return super.onOptionsItemSelected(item);

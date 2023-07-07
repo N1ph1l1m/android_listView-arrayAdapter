@@ -27,7 +27,7 @@ public class MyListView extends AppCompatActivity {
 
         nameList = findViewById(R.id.myList);
 
-        StateAdapter  stateAdapter= new StateAdapter(this, R.layout.mylist_item,states);
+        StateAdapter  stateAdapter = new StateAdapter(this, R.layout.mylist_item,states);
 
         nameList.setAdapter(stateAdapter);
         AdapterView.OnItemClickListener itemClickListener = new AdapterView.OnItemClickListener() {

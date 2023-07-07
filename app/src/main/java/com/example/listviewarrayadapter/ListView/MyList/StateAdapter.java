@@ -26,14 +26,13 @@ public class StateAdapter extends ArrayAdapter<State> {
     public View getView(int position, View convertView , ViewGroup parent){
 
         ViewHolder viewHolder;
-        if(convertView ==null){
+        if(convertView == null){
             convertView = inflater.inflate(this.layout, parent, false);
             viewHolder = new ViewHolder(convertView);
             convertView.setTag(viewHolder);
         }else{
             viewHolder = (ViewHolder) convertView.getTag();
         }
-
 
         State state = states.get(position);
 
