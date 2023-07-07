@@ -3,12 +3,12 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
+        android:id="@+id/ListView1"
+        android:title="ListView1"/>
+    <item
         android:id="@+id/ListView2"
-        android:title="ListView2"
-    />
-
+        android:title="ListView2" />
     <item
         android:id="@+id/ListView3"
-        android:title="ListView3"
-        />
+        android:title="ListView3" />
 </menu>
