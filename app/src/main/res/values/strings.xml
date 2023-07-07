@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">ListView&amp;ArrayAdapter</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="Count">Count</string>
+
 </resources>
