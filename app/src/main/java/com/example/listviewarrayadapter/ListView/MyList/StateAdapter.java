@@ -19,25 +19,39 @@ public class StateAdapter extends ArrayAdapter<State> {
 
     public StateAdapter(Context context, int resource, List<State> states){
         super(context, resource, states);
-        this.states =states;
+        this.states = states;
         this.layout = resource;
         this.inflater  = LayoutInflater.from(context);
     }
     public View getView(int position, View convertView , ViewGroup parent){
 
-        View view = inflater.inflate(this.layout, parent, false);
-        ImageView iconView = view.findViewById(R.id.icon);
-        TextView nameView = view.findViewById(R.id.name);
-        TextView capitalView = view.findViewById(R.id.surname);
+        ViewHolder viewHolder;
+        if(convertView ==null){
+            convertView = inflater.inflate(this.layout, parent, false);
+            viewHolder = new ViewHolder(convertView);
+            convertView.setTag(viewHolder);
+        }else{
+            viewHolder = (ViewHolder) convertView.getTag();
+        }
+
 
         State state = states.get(position);
 
-        iconView.setImageResource(state.getIconResource());
-        nameView.setText(state.getName());
-        capitalView.setText(state.getSurname());
+        viewHolder.imageView.setImageResource(state.getIconResource());
+        viewHolder.nameView.setText(state.getName());
+        viewHolder.surmameView.setText(state.getSurname());
 
-        return view;
+        return convertView;
 
+    }
+    private class ViewHolder {
+        final ImageView imageView;
+        final TextView nameView, surmameView;
+        ViewHolder(View view){
+            imageView = view.findViewById(R.id.icon);
+            nameView = view.findViewById(R.id.name);
+            surmameView = view.findViewById(R.id.surname);
+        }
     }
 
 /*
