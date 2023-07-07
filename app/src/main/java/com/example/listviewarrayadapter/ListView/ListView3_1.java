@@ -2,7 +2,9 @@ package com.example.listviewarrayadapter.ListView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.graphics.Color;
 import android.os.Bundle;
+import android.util.Log;
 import android.util.SparseBooleanArray;
 import android.view.View;
 import android.widget.AdapterView;
@@ -38,9 +40,15 @@ public class ListView3_1 extends AppCompatActivity {
                     if(selected.get(i)){
                         selectedItem += contries[i] + ",";
                     }
-
                 }
+                try{
+                    textView3.setTextColor(Color.parseColor("#5E35B1"));
+                }catch (Exception e){
+                    Log.d("Mess", String.valueOf(e));
+                }
+
                 textView3.setText("Выбрано:" + selectedItem);
+
             }
         });
 
