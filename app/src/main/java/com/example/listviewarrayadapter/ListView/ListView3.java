@@ -59,6 +59,8 @@ public class ListView3 extends AppCompatActivity {
         if(id == R.id.LW1){
             startActivity(new Intent(this, ListView3_1.class));
             return true;
+        }else if(id == R.id.LW2){
+            startActivity(new Intent(this, ListView3_2.class));
         }
         return super.onOptionsItemSelected(item);
 
