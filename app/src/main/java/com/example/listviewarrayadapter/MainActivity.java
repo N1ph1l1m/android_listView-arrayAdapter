@@ -8,16 +8,11 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
-import android.widget.ArrayAdapter;
-import android.widget.ListView;
 
 import com.example.listviewarrayadapter.ListView.ListView1;
 import com.example.listviewarrayadapter.ListView.ListView2;
 import com.example.listviewarrayadapter.ListView.ListView3;
-import com.example.listviewarrayadapter.ListView.MyListView;
-
-import java.util.ArrayList;
-import java.util.List;
+import com.example.listviewarrayadapter.ListView.MyList.MyListView;
 
 public class MainActivity extends AppCompatActivity {
 

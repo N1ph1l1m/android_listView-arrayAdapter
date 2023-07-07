@@ -1,4 +1,4 @@
-package com.example.listviewarrayadapter.ListView;
+package com.example.listviewarrayadapter.ListView.MyList;
 
 import androidx.appcompat.app.AppCompatActivity;
 
