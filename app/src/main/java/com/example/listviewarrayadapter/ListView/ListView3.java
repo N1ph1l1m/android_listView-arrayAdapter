@@ -14,7 +14,6 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.example.listviewarrayadapter.ListView3_1;
 import com.example.listviewarrayadapter.MainActivity;
 import com.example.listviewarrayadapter.R;
 
@@ -58,7 +57,7 @@ public class ListView3 extends AppCompatActivity {
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         int id = item.getItemId();
         if(id == R.id.LW1){
-            startActivity(new Intent(this, ListView2.class));
+            startActivity(new Intent(this, ListView3_1.class));
             return true;
         }
         return super.onOptionsItemSelected(item);
