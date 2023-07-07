@@ -14,6 +14,7 @@ import android.widget.ListView;
 import com.example.listviewarrayadapter.ListView.ListView1;
 import com.example.listviewarrayadapter.ListView.ListView2;
 import com.example.listviewarrayadapter.ListView.ListView3;
+import com.example.listviewarrayadapter.ListView.MyListView;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -45,6 +46,9 @@ public class MainActivity extends AppCompatActivity {
             return true;
         }else if(id == R.id.ListView3) {
             startActivity(new Intent(this, ListView3.class));
+            return true;
+        }else if(id == R.id.MyListView) {
+            startActivity(new Intent(this, MyListView.class));
             return true;
         }
         return super.onOptionsItemSelected(item);

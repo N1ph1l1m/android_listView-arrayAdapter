@@ -25,6 +25,8 @@ public class ListView3_2 extends AppCompatActivity {
     ArrayAdapter<String> adapter;
     EditText userName;
     ListView listView3_2;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -55,10 +57,8 @@ public class ListView3_2 extends AppCompatActivity {
                         selectedUsers.remove(user);
                 }
         });
-
     }
     public void add(View view) {
-
        userName = findViewById(R.id.userName);
        String user = userName.getText().toString();
        if(!user.isEmpty()){
@@ -66,7 +66,6 @@ public class ListView3_2 extends AppCompatActivity {
            userName.setText("");
            adapter.notifyDataSetChanged();
        }
-
     }
 
     public void remove(View view) {

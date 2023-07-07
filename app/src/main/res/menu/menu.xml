@@ -11,4 +11,7 @@
     <item
         android:id="@+id/ListView3"
         android:title="ListView3" />
+    <item
+        android:id="@+id/MyListView"
+        android:title="My_ListView" />
 </menu>
