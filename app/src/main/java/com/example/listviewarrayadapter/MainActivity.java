@@ -41,6 +41,9 @@ public class MainActivity extends AppCompatActivity {
         }  else if(id == R.id.AutoComplete) {
             startActivity(new Intent(this, AutoComplete.class));
             return true;
+        }else if(id == R.id.GridView) {
+            startActivity(new Intent(this, GridViewActivity.class));
+            return true;
         }
         return super.onOptionsItemSelected(item);
 

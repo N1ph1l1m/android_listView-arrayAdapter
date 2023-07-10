@@ -11,6 +11,9 @@
     <item
         android:id="@+id/AutoComplete"
         android:title="AutoComplete" />
+    <item
+        android:id="@+id/GridView"
+        android:title="GridView" />
 
 
 
