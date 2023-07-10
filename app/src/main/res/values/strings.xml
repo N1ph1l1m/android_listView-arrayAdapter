@@ -4,6 +4,7 @@
     <string name="minus">-</string>
     <string name="Count">Count</string>
     <string name="AutoCompele">AutoCompele</string>
+    <string name="MAutoCompele">Multi AutoCompele</string>
 
 
 </resources>

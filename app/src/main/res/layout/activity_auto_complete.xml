@@ -23,8 +23,30 @@
             android:id="@+id/autocomplete"
             android:layout_width="250dp"
             android:layout_height="wrap_content"
-            android:completionHint="Введите город"
+            android:completionHint="Input city"
             android:completionThreshold="1" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp">
+        <TextView
+            android:text="@string/MAutoCompele"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:layout_marginStart="50dp" />
+
+        <MultiAutoCompleteTextView
+            android:id="@+id/multuAutoComplete"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:completionHint="Input colors"
+            android:completionThreshold="1"
+            />
 
     </LinearLayout>
 
