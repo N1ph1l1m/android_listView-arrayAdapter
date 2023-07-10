@@ -50,6 +50,9 @@ public class MainActivity extends AppCompatActivity {
         else if(id == R.id.HardList) {
             startActivity(new Intent(this, HardList.class));
             return true;
+        }   else if(id == R.id.HardList) {
+            startActivity(new Intent(this, Spinner.class));
+            return true;
         }
         return super.onOptionsItemSelected(item);
 

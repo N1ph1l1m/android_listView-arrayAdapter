@@ -17,4 +17,10 @@
     <item
         android:id="@+id/HardList"
         android:title="HardList" />
+    <item
+        android:id="@+id/Spinner"
+        android:title="Spinner" />
+
+
+
 </menu>
