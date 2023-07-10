@@ -13,9 +13,13 @@
         android:theme="@style/Theme.ListViewArrayAdapter"
         tools:targetApi="31">
         <activity
-            android:label="Spinner"
+            android:name=".AutoComplete"
+            android:exported="false"
+            android:label="@string/AutoCompele"/>
+        <activity
             android:name=".SpinnerActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:label="Spinner" />
         <activity
             android:name=".ListView.HardList.HardList"
             android:exported="false" />

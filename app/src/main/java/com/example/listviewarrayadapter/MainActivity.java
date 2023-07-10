@@ -53,6 +53,9 @@ public class MainActivity extends AppCompatActivity {
         }   else if(id == R.id.Spinner) {
             startActivity(new Intent(this, SpinnerActivity.class));
             return true;
+        }  else if(id == R.id.AutoComplete) {
+            startActivity(new Intent(this, AutoComplete.class));
+            return true;
         }
         return super.onOptionsItemSelected(item);
 
