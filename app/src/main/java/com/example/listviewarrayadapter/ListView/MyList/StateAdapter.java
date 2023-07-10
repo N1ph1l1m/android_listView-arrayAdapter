@@ -43,7 +43,7 @@ public class StateAdapter extends ArrayAdapter<State> {
         return convertView;
 
     }
-    private class ViewHolder {
+    public class ViewHolder {
         final ImageView imageView;
         final TextView nameView, surmameView;
         ViewHolder(View view){

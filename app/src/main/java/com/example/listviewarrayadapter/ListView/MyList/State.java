@@ -35,4 +35,5 @@ public class State {
     public void setIconResource(int iconResource) {
         this.iconResource = iconResource;
     }
+
 }

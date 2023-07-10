@@ -9,6 +9,7 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 
 import com.example.listviewarrayadapter.ListView.HardList.HardList;
+import com.example.listviewarrayadapter.RecyclerViewFolder.MainRecyclerView;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -43,6 +44,10 @@ public class MainActivity extends AppCompatActivity {
             return true;
         }else if(id == R.id.GridView) {
             startActivity(new Intent(this, GridViewActivity.class));
+            return true;
+        }
+        else if(id == R.id.RecyclerView) {
+            startActivity(new Intent(this, MainRecyclerView.class));
             return true;
         }
         return super.onOptionsItemSelected(item);
